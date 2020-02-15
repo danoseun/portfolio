@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alimi Kehinde Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <!-- logo -->
+            <div class="logo">
+                <img src="img/marusoft.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>'Seun Somefun</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+            <img src="img/alimi.jpeg" alt="A picture of Seun Somefun" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Software Engineering</h3>
+                    <p>I offer my expertise as a software engineer to individuals and start ups looking to build products.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Tutoring + Mentoring</h3>
+                    <p>In my free time, I mentor peers and colleagues individually or via local meetups on programming and answer questions when needed. I also have helped colleagues develop their programming skills by pair programming while learning myself.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Debugging</h3>
+                    <p>Whether it is a common bug or a new one, I help colleagues debug and get to the root of problems. At the end of the day, you become better as a software engineer.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Software Engineer, Lagos, Nigeria.</p>
+           
+           <div class="about-me__body">
+               <p>I am a human being who is interested in continuous learning. I believe impossibility and possibility are states of mind.</p>
+               <p>My love for computation and mathematics drove me to start programming in Python around 2017/2018 and now I currently use Javascript as my language of expression but I intend to look into Golang, C and other languages too. My interests lie in building products people will be willing to pay for because of what use is knowledge when it is not beneficial to mankind?</p>
+           </div>
+           
+           <img src="img/alimi.jpeg" alt="seun" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">SELECTED PROJECTS</h2>
+            <p class="section__subtitle"></p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                <h6 class="centered">LUHN FORMULA IMPLEMENTATION</h6>
+                    <img src="img/a.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                <h6 class="centered">TIME CONVERSION APPLICATION</h6>
+                    <img src="img/b.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                <h6 class="centered">PASSWORD STRENGTH APPLICATION</h6>
+                    <img src="img/c.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                <h6 class="centered">CAR SALES APPLICATION</h6>
+                    <img src="img/d.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                <h6 class="centered">MESSAGING APPLICATION</h6>
+                    <img src="img/e.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                <h6 class="centered">SALES INVENTORY APPLICATION</h6>
+                    <img src="img/f.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+         <!-- Footer -->
+         <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="ayodejisomefun@yahoo.com" class="footer__link">ayodejisomefun@yahoo.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://codepen.io/oseun"><i class="fab fa-codepen"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/oluwaseun-somefun/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/gentletalkaktiv"><i class="fab fa-twitter-square"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/danoseun"><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://stackoverflow.com/users/10514075/camelcase"><i class="fab fa-stack-overflow"></i></a></li>
+            </ul>
+        </footer>
+        <script src="js/app.js"></script>
+    </body>
+</html>
